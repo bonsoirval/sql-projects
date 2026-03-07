@@ -42,3 +42,9 @@ Number of encounters with zero payer coverage and the percentage of total encoun
 
 **Decisions that can be affected by these insights**
 The unique patients admitted each year gives the hospital an overview of the total number of its patients. The patients readmitted within 30 days points to either more serious cases or where the hospital need better experienced personnel on. 
+
+
+### Feedback time
+Please kindly provide your comment and thoughts here
+
+[Click me to comment](https://www.linkedin.com/posts/njoku-okechukwu-val_i-have-just-built-a-project-using-postgresql-activity-7435793855872131072-6YUz?utm_source=share&utm_medium=member_desktop&rcm=ACoAABdVi94BiqeCAQwRdMBvvMrH7vxcpms-ON4)
