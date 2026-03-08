@@ -23,7 +23,7 @@ WITH NextAdmissions AS (
     FROM encounters0
 )
 SELECT 
-    DISTINCT p.prefix || ', '|| p.first || ' ' || p.last AS patient_name,
+    p.prefix || ', '|| p.first || ' ' || p.last AS patient_name,
     -- na.patient,
     to_char(na.discharge_date, 'yyyy-mm-dd') AS discharge_date,
     to_char(na.next_adm, 'yyyy-mm-dd') AS readmission_date,
@@ -33,7 +33,7 @@ JOIN patients0  AS p
 ON p.id = na.patient
 WHERE na.next_adm IS NOT NULL 
   AND (na.next_adm - na.discharge_date) <= INTERVAL '30 days'
-ORDER BY discharge_datep;
+ORDER BY na.discharge_date;
 
 /*
 c. Which patients had the most readmissions?
