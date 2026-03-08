@@ -59,7 +59,7 @@ The number of encounters per year can help the HR of hospital plan on human reso
 
 |sn|zero_coverage|num|percentage|
 |---|---|---|---|
-|1||Non-zero Coverage|14305|51.29|
+|1|Non-zero Coverage|14305|51.29|
 |2|Zero Coverage|13586|48.71|
 
 - b. What are the top 10 most frequent procedures performed and the average base cost for each (first four names lists for space)?
